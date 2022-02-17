@@ -41,8 +41,8 @@ main{
     background-color: blanchedalmond;
     padding: 10px;
     margin: 0px auto;
-    max-width: 900px;
     border-radius: 5px;
+    max-width: 900px;
     box-shadow: 3px 3px 3px rgba(163, 152, 134, 0.87);
 }
 
@@ -53,27 +53,41 @@ section{
     padding-top: 10vh;
     background-color: white;
     font-weight: bold;
-    line-height: 3em;
+    line-height: 4em;
 
 }
 
 
 
-section.img{
+section.imagem{
     background-color: rgba(48, 46, 46, 0.623);
     color: white;
+    background-attachment: fixed;
 }
 
 
-section.img > p{
-    background-color: black;
+section.imagem > p{
+    background-color: rgba(58, 57, 57, 0.781);
     width: 400px;
     margin-left: -10px;
     padding: 10px;
 }
 
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
 main p{
     font-family: 'Bad Script', cursive;
+    font-size: 1.5em;
 }
 
 
